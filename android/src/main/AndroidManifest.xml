@@ -1,0 +1,19 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.nghinv">
+  <application android:name=".MainApplication">
+        <receiver android:name="WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.androidwidgetpoc.CHARM_1" />
+                <action android:name="com.androidwidgetpoc.CHARM_2" />
+                <action android:name="com.androidwidgetpoc.CHARM_3" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetprovider" />
+        </receiver>
+        <service android:name=".BackgroundTask" android:enabled="true" android:label="BackgroundAdd" />
+  </application>
+</manifest>
+  
