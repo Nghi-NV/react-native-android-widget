@@ -7,9 +7,9 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.androidwidgetpoc.CHARM_1" />
-                <action android:name="com.androidwidgetpoc.CHARM_2" />
-                <action android:name="com.androidwidgetpoc.CHARM_3" />
+                <action android:name="com.nghinv.CHARM_1" />
+                <action android:name="com.nghinv.CHARM_2" />
+                <action android:name="com.nghinv.CHARM_3" />
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/widgetprovider" />
         </receiver>

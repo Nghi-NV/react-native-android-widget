@@ -1,4 +1,4 @@
-package com.androidwidgetpoc;
+package com.nghinv;
 
 import android.content.Context;
 import android.content.Intent;
